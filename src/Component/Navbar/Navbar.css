@@ -1,0 +1,133 @@
+
+.lang{
+    float: left;margin-left: 550px;margin-top: -49px;
+}
+body{
+    background-color: white;
+    height: 100%;
+    padding: 0px;
+  }
+  ul{
+      list-style-type: none;
+      overflow: hidden;
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 5px 8px rgb(60, 60, 70);
+      height: 90px;
+      color: #3681B1;
+  }
+  li  a{
+      text-decoration: none;
+      float: left;
+      padding:16px 14px ;
+     text-align: center;
+      font-size: 20px;
+      display: block;
+      margin-top: 30px;
+      color:#3681B1 ;
+      
+  
+  }
+p{
+font-size: 25px;
+}
+  li a:hover:not(.active) {
+    box-shadow: 5px 5px 8px rgb(138, 138, 182);
+  }
+  
+  .active{
+    margin-bottom: 20px;
+}
+  
+  ul  h2{margin-top: -5px;}
+  ul a h2:hover{background-color: none;}
+  .logo{
+  width: 280px;
+  height: 110px;
+  float: left; 
+  margin-bottom: 50px;
+  }
+ 
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      color:#3681B1 ;
+      margin-top: 20px;
+
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 20px;  
+      border: none;
+      outline: none;
+      color:#3681B1 ;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color:#3681B1 ;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      margin: 8PX;
+    }
+    
+    .dropdown-content a:hover  {
+      box-shadow: 5px 5px 8px rgb(138, 138, 182);
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+      box-shadow: 5px 5px 8px rgb(138, 138, 182);
+
+    }
+    
+  
+   
+  
+    .box select {
+      background-color: #8dadad27;
+      color: #015C92;
+      border: none;
+      font-size: 17px;
+      font-weight: bold;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+      -webkit-appearance: button;
+      appearance: button;
+      margin-top: 10px;
+
+    }
+  
+   
+/*responsive*/
+@media(max-width: 767px){
+  .topnav{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .topnav{
+    width: 100%;
+}
+}
+ 
+  
+  
+  
+   
+ 

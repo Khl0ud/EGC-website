@@ -1,0 +1,18 @@
+.Slider{
+    margin-top: 100px;
+    height: 450px;
+    width: 100%;
+    background-image:url("p1.png") ;
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myani;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes myani{
+    0%{background-image:url("p2.png") ; }
+    25%{background-image:url("p6.png") ;}
+    75%{background-image:url("p4.png") ;}
+}
